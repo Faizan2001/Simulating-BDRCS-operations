@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="momo2010537.DonationreqController">
+   <children>
+      <Label prefHeight="62.0" prefWidth="600.0" style="-fx-background-color: lightgreen;" />
+      <Label layoutX="198.0" layoutY="14.0" text="Donation Request">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Button layoutX="464.0" layoutY="336.0" mnemonicParsing="false" onAction="#homepagebutton" text="Home page" />
+      <ComboBox layoutX="48.0" layoutY="83.0" prefWidth="150.0" promptText="Select Area" />
+      <Button layoutX="48.0" layoutY="121.0" mnemonicParsing="false" text="Submit" />
+      <TableView layoutX="48.0" layoutY="161.0" prefHeight="200.0" prefWidth="398.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Name" />
+          <TableColumn prefWidth="75.0" text="Address" />
+            <TableColumn prefWidth="75.0" text="Contact" />
+            <TableColumn prefWidth="99.0" text="Blood Group" />
+            <TableColumn prefWidth="75.0" text="Date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

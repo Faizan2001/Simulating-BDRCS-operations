@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="513.0" prefWidth="852.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="redcresent_bloodbank_admin_patient.Blood_RequestController">
+   <children>
+      <Label alignment="CENTER" layoutX="-2.0" prefHeight="173.0" prefWidth="853.0" text="Blood Request" textFill="#f20404">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <ComboBox layoutX="287.0" layoutY="199.0" prefHeight="54.0" prefWidth="227.0" promptText="Select Blood Group" />
+      <TextField layoutX="451.0" layoutY="324.0" prefHeight="31.0" prefWidth="65.0" />
+      <Label layoutX="287.0" layoutY="325.0" text="Specify Quantity:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="313.0" layoutY="411.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="175.0" text="Submit Request" textFill="#05b926">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

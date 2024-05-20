@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="volunteerAnchorPane" prefHeight="550.0" prefWidth="670.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VolunteerSceneController">
+   <children>
+      <VBox alignment="TOP_CENTER" fillWidth="false" prefHeight="550.0" prefWidth="100.0" spacing="10.0" style="-fx-background-color: red;">
+         <children>
+            <Label prefHeight="44.0" prefWidth="100.0" text="Volunteer Dashboard" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Button fx:id="myVolBtnFxID" mnemonicParsing="false" onAction="#myVolunteerDataOnClick" prefHeight="67.0" prefWidth="89.0" style="-fx-background-color: white;" text="My Volunteer Data" textAlignment="CENTER" textFill="RED" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Button fx:id="viewVolunteersBtnFxID" mnemonicParsing="false" onAction="#viewVolunteersOnClick" prefHeight="67.0" prefWidth="89.0" style="-fx-background-color: white;" text="View Volunteers" textAlignment="CENTER" textFill="RED" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Button fx:id="forumBtnFxID" mnemonicParsing="false" onAction="#forumBtnOnClick" prefHeight="67.0" prefWidth="89.0" style="-fx-background-color: white;" text="Forum" textAlignment="CENTER" textFill="RED" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+      </VBox>
+      <TableView fx:id="MyEventsTableView" layoutX="115.0" layoutY="60.0" prefHeight="218.0" prefWidth="543.0">
+        <columns>
+          <TableColumn fx:id="eventIdColumn" prefWidth="75.33334350585938" text="Event ID" />
+          <TableColumn fx:id="eventTypeColumn" prefWidth="178.66665649414062" text="Event Type" />
+            <TableColumn fx:id="eventTimeColumn" prefWidth="105.0" text="Event Time" />
+            <TableColumn fx:id="eventDateColumn" maxWidth="294.6666259765625" minWidth="0.0" prefWidth="100.0" text="Event Date" />
+            <TableColumn fx:id="volunteersListColumn" prefWidth="85.0" text="Volunteers" />
+        </columns>
+      </TableView>
+      <Button fx:id="viewEventDetailsFxID" layoutX="115.0" layoutY="291.0" mnemonicParsing="false" onAction="#viewEventDetailsOnClick" prefHeight="47.0" prefWidth="100.0" style="-fx-background-color: red;" text="View Details" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="markCompleteBtnFxId" layoutX="221.0" layoutY="291.0" mnemonicParsing="false" onAction="#markCompleteOnClick" prefHeight="47.0" prefWidth="140.0" style="-fx-background-color: red;" text="Mark Complete" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelParticipationBtnFxID" layoutX="518.0" layoutY="291.0" mnemonicParsing="false" onAction="#cancelParticipationOnClick" prefHeight="47.0" prefWidth="140.0" style="-fx-background-color: red;" text="Cancel Participation" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="nearbyEventsBtnFxID" layoutX="365.0" layoutY="291.0" mnemonicParsing="false" onAction="#lookForNearbyEventsOnClick" prefHeight="47.0" prefWidth="148.0" style="-fx-background-color: red;" text="View All Events" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="116.0" layoutY="25.0" prefHeight="35.0" prefWidth="126.0" text="My Events" textFill="RED">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="emergencyNoticesTextArea" editable="false" layoutX="113.0" layoutY="388.0" prefHeight="148.0" prefWidth="543.0" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="115.0" layoutY="354.0" prefHeight="27.0" prefWidth="166.0" text="Emergency Notices" textFill="RED">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="569.0" layoutY="16.0" mnemonicParsing="false" onAction="#signOutOnClick" prefHeight="34.0" prefWidth="89.0" style="-fx-background-color: red;" text="Sign Out" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

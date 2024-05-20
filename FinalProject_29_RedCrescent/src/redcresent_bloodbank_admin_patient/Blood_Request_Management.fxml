@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="886.0" prefWidth="1102.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="your.package.YourController">
+    <children>
+        <Label alignment="CENTER" layoutX="106.0" layoutY="32.0" prefHeight="103.0" prefWidth="897.0" text="Blood Request Management" textFill="#dd0404">
+         <font>
+            <Font name="System Bold" size="65.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect></Label>
+        <TableView fx:id="tableViewRequests" layoutX="51.0" layoutY="192.0" prefHeight="376.0" prefWidth="1000.0">
+            <columns>
+                <TableColumn fx:id="colRequestID" prefWidth="200.0" text="Request ID" />
+                <TableColumn fx:id="colPatientName" prefWidth="200.0" text="Patient Name" />
+                <TableColumn fx:id="colBloodType" prefWidth="200.0" text="Blood Group" />
+                <TableColumn fx:id="colQuantity" prefWidth="200.0" text="Quantity">
+               <columns>
+                  <TableColumn prefWidth="100.0" text="Required" />
+                  <TableColumn prefWidth="100.0" text="Assigned" />
+               </columns></TableColumn>
+                <TableColumn fx:id="colStatus" prefWidth="200.0" text="Status" />
+            </columns>
+        </TableView>
+        <Button layoutX="461.0" layoutY="597.0" onAction="#LoadRequestonAction" prefHeight="43.0" prefWidth="180.0" text="Load Requests" textFill="#2c03e4">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+        <Button layoutX="448.0" layoutY="695.0" onAction="#UpdateRequestOnAction" prefHeight="43.0" prefWidth="158.0" text="Udate Request" textFill="#0606ee">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+        <Button layoutX="448.0" layoutY="780.0" onAction="#NotifyPatientOnAction" prefHeight="44.0" prefWidth="158.0" text="Notify Patient" textFill="#1708f2">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Label layoutX="33.0" layoutY="706.0" text="Request ID:" />
+      <Label layoutX="33.0" layoutY="759.0" text="Assigned Units:" />
+      <Label layoutX="34.0" layoutY="816.0" text="Change Status:" />
+      <TextField layoutX="157.0" layoutY="701.0" prefHeight="31.0" prefWidth="101.0" />
+      <TextField layoutX="157.0" layoutY="754.0" prefHeight="31.0" prefWidth="101.0" />
+      <ChoiceBox fx:id="ChoiceBox" layoutX="157.0" layoutY="811.0" prefWidth="150.0" />
+      <Line endX="-24.0" endY="121.0" layoutX="742.0" layoutY="747.0" startX="-24.0" startY="-47.0" />
+      <Line endX="440.0" layoutX="249.0" layoutY="670.0" startX="-215.0" />
+      <Line endX="226.0" layoutX="849.0" layoutY="670.0" startX="-100.0" />
+      <TextField alignment="CENTER" layoutX="797.0" layoutY="710.0" prefHeight="147.0" prefWidth="263.0" text="Notifcation Sended Successfully!!!">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+    </children>
+</AnchorPane>

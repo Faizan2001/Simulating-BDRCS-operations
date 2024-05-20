@@ -1,0 +1,65 @@
+Police Station,Dhaka,0121331232
+Fire Brigade,Chattogram,012313113
+Rapid Action Battalion (RAB),Khulna,04141213123
+Red Crescent Society,Dhaka,0123131414
+Ambulance Services,Dhaka,01239991223
+Health Clinic,Chattogram,0311223344
+Red Crescent Society,Barishal,01122334455
+Health Clinic,Khulna,0422333444
+Rescue Squad,Sylhet,0155444333
+Fire Brigade,Rajshahi,0177555666
+Coast Guard,Chattogram,0133666999
+Search and Rescue Team,Khulna,0188777222
+Emergency Medical Services,Dhaka,0166888444
+Medical Helpline,Sylhet,0199111222
+Disaster Response Team,Rajshahi,0155333444
+Medical Emergency Services,Barishal,0144555666
+Emergency Helpline,Chattogram,0177444555
+Security Services,Dhaka,0133222111
+Medical Hotline,Khulna,0111999888
+Search and Rescue Team,Rajshahi,0144111222
+Police Station,Barishal,0199888777
+Fire Brigade,Chattogram,0177666555
+Medical Response Team,Dhaka,0188777666
+Ambulance Services,Khulna,0155777444
+Medical Emergency Services,Sylhet,0144222111
+Health Clinic,Barishal,0166444333
+Medical Assistance Team,Chattogram,0177333111
+Medical Helpline,Dhaka,0133999222
+Ambulance Services,Khulna,0199222111
+Search and Rescue Team,Sylhet,0122111333
+Disaster Response Team,Barishal,0155666777
+Emergency Helpline,Chattogram,0177999000
+Medical Assistance Team,Dhaka,0166000111
+Fire Brigade,Khulna,0177111222
+Medical Response Team,Rajshahi,0188222333
+Ambulance Services,Sylhet,0169333444
+Emergency Medical Services,Mymensingh,0177444555
+Police Station,Dhaka,0198555666
+Fire Brigade,Chattogram,0144666777
+Police Station,Khulna,0155777888
+Search and Rescue Team,Rangpur,0123888999
+Emergency Medical Services,Mymensingh,0177999111
+Medical Helpline,Sylhet,0166000222
+Medical Assistance Team,Barishal,0177111333
+Medical Response Team,Chattogram,0168222444
+Emergency Helpline,Rangpur,0199333555
+Medical Emergency Services,Dhaka,0147444666
+Police Station,Khulna,0178555777
+Fire Brigade,Rajshahi,0155666888
+Police Station,Rangpur,0166777999
+Search and Rescue Team,Mymensingh,0188889000
+Ambulance Services,Sylhet,0148999111
+Medical Assistance Team,Barishal,0157111222
+Police Station,Chattogram,0167222333
+Search and Rescue Team,Dhaka,0178333444
+Medical Response Team,Rangpur,0199444555
+Police Station,Mymensingh,0188555666
+Fire Brigade,Khulna,0166666777
+Medical Helpline,Sylhet,0177777888
+Ambulance Services,Chattogram,0188888999
+Emergency Medical Services,Dhaka,0168999000
+Police Station,Rajshahi,0169110111
+Medical Assistance Team,Barishal,0149222333
+Emergency Helpline,Khulna,0159333444
+Medical Response Team,Mymensingh,0179444555

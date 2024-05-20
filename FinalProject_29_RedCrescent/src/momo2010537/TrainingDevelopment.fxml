@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="momo2010537.TrainingDevelopmentController">
+   <children>
+      <Label prefHeight="66.0" prefWidth="600.0" style="-fx-background-color: skyblue;" />
+      <Label layoutX="202.0" layoutY="20.0" text="Training &amp; Development">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="511.0" layoutY="361.0" mnemonicParsing="false" onAction="#homepagebutton" text="Home Page" />
+      <TextField layoutX="22.0" layoutY="79.0" promptText="Collector Name" />
+      <TextField layoutX="398.0" layoutY="79.0" promptText="Collector Id" />
+      <TextField layoutX="22.0" layoutY="114.0" promptText="Collector Contact" />
+      <RadioButton layoutX="488.0" layoutY="118.0" mnemonicParsing="false" text="Female" />
+      <RadioButton layoutX="398.0" layoutY="118.0" mnemonicParsing="false" text="Male" />
+      <Button layoutX="505.0" layoutY="153.0" mnemonicParsing="false" text="Send Request" />
+      <Line endX="499.0" layoutX="101.0" layoutY="190.0" startX="-100.0" />
+      <TextArea layoutX="9.0" layoutY="211.0" prefHeight="184.0" prefWidth="492.0" />
+      <Label layoutX="22.0" layoutY="192.0" text="Training &amp; Development:" />
+   </children>
+</AnchorPane>

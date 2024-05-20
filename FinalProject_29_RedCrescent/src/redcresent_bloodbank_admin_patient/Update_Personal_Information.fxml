@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="453.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label alignment="CENTER" layoutY="34.0" prefHeight="30.0" prefWidth="740.0" text="Update Personal Information" textFill="#eb3f05">
+            <font>
+                <Font name="System Bold" size="39.0" />
+            </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+        </Label>
+        <Label layoutX="96.0" layoutY="175.0" text="Full Name:" />
+        <TextField layoutX="202.0" layoutY="170.0" prefWidth="356.0" />
+        <Label layoutX="92.0" layoutY="233.0" text="Email:" />
+        <TextField layoutX="202.0" layoutY="228.0" prefWidth="356.0" />
+        <Label layoutX="92.0" layoutY="297.0" text="Address:" />
+        <TextField layoutX="202.0" layoutY="292.0" prefWidth="356.0" />
+        <Button layoutX="318.0" layoutY="369.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="104.0" text="Submit" textFill="#109a23">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

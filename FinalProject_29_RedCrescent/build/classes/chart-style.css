@@ -1,0 +1,14 @@
+/* Styling for the BarChart */
+#barChart {
+    -fx-background-color: transparent; /* Set background color to transparent */
+}
+
+/* Styling for the x-axis and y-axis labels */
+.axis-label {
+    -fx-text-fill: white; /* Set text color to white */
+}
+
+/* Styling for the series bars */
+.default-color0.chart-bar {
+    -fx-bar-fill: red; /* Set bar fill color to red */
+}

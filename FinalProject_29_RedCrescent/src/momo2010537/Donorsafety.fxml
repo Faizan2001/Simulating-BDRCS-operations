@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="433.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="momo2010537.DonorsafetyController">
+   <children>
+      <Label prefHeight="77.0" prefWidth="602.0" style="-fx-background-color: skyblue;" />
+      <Label layoutX="232.0" layoutY="21.0" text="Donor Safety">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="523.0" layoutY="394.0" mnemonicParsing="false" onAction="#homepagebutton" text="Home Page" />
+      <TextField layoutX="30.0" layoutY="89.0" promptText="Donor Name" />
+      <TextField layoutX="30.0" layoutY="121.0" promptText="Donor Id" />
+      <TextField layoutX="386.0" layoutY="89.0" promptText="Donor Address" />
+      <TextField layoutX="386.0" layoutY="121.0" promptText="Donor Mail" />
+      <TextField layoutX="30.0" layoutY="157.0" promptText="Donor Contact" />
+      <RadioButton layoutX="478.0" layoutY="166.0" mnemonicParsing="false" text="Female" />
+      <RadioButton layoutX="386.0" layoutY="166.0" mnemonicParsing="false" text="Male" />
+      <Button layoutX="510.0" layoutY="204.0" mnemonicParsing="false" text="Submit" />
+      <TextArea layoutX="29.0" layoutY="243.0" prefHeight="185.0" prefWidth="478.0" />
+      <Line endX="460.0" layoutX="142.0" layoutY="236.0" startX="-142.0" />
+   </children>
+</AnchorPane>

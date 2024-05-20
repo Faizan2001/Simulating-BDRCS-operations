@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="891.0" prefWidth="989.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label alignment="CENTER" layoutX="8.0" layoutY="13.0" prefHeight="82.0" prefWidth="973.0" text="Training Program Management" textFill="#c90606">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect></Label>
+        <Button layoutX="672.0" layoutY="518.0" mnemonicParsing="false" prefHeight="93.0" prefWidth="280.0" text="Add New Program in the List" textFill="#029a35">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+        <Label layoutX="38.0" layoutY="414.0" text="New Training Program Date:" />
+        <DatePicker layoutX="243.0" layoutY="409.0" prefHeight="31.0" prefWidth="161.0" />
+        <Label layoutX="37.0" layoutY="472.0" text="New Training Program Time:" />
+        <!-- Use TimePicker or TextField for entering session time -->
+        <Label layoutX="38.0" layoutY="658.0" text="New Training Program Description:">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+        <TextArea layoutX="36.0" layoutY="713.0" prefHeight="150.0" prefWidth="511.0" text="Discover our Blood Bank Training for hands-on skills in blood handling,&#10;safety, and donation management.&#10;" />
+      <TextField layoutX="243.0" layoutY="467.0" prefHeight="31.0" prefWidth="161.0" />
+      <Line endX="93.0" endY="89.0" layoutX="517.0" layoutY="334.0" startX="93.0" startY="534.0" />
+      <TextField layoutX="672.0" layoutY="713.0" prefHeight="150.0" prefWidth="280.0" text="Program successfully added in the list!!!" />
+      <Line endX="628.0" layoutX="325.0" layoutY="389.0" startX="-284.0" />
+      <TableView layoutX="47.0" layoutY="116.0" prefHeight="200.0" prefWidth="900.0">
+        <columns>
+          <TableColumn prefWidth="100.0" text="Program N0." />
+          <TableColumn prefWidth="130.0" text="Date" />
+            <TableColumn prefWidth="150.0" text="Time" />
+            <TableColumn prefWidth="220.0" text="Title" />
+            <TableColumn prefWidth="300.0" text="Description" />
+        </columns>
+      </TableView>
+      <Button layoutX="417.0" layoutY="332.0" mnemonicParsing="false" text="View Program LIst" textFill="#0c68f2" />
+      <TextField layoutX="38.0" layoutY="598.0" prefHeight="38.0" prefWidth="260.0" text="&quot;Blood Donation for Huminity&quot;" />
+      <Label layoutX="39.0" layoutY="551.0" text="New Training Program Title:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Line endX="449.0" layoutX="138.0" layoutY="526.0" startX="-100.0" />
+    </children>
+</AnchorPane>

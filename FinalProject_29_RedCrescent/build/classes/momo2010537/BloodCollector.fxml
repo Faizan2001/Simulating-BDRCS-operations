@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="429.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="momo2010537.BloodCollectorController">
+   <children>
+      <Label layoutX="-1.0" layoutY="-2.0" prefHeight="83.0" prefWidth="600.0" style="-fx-background-color: skyblue;" />
+      <Label layoutX="221.0" layoutY="26.0" text="Blood Collector">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button layoutX="222.0" layoutY="97.0" mnemonicParsing="false" onAction="#schedulebutton" prefHeight="25.0" prefWidth="157.0" text="Schedule " />
+      <Button layoutX="222.0" layoutY="136.0" mnemonicParsing="false" onAction="#informationbutton" prefHeight="25.0" prefWidth="157.0" text="Information" />
+      <Button layoutX="222.0" layoutY="173.0" mnemonicParsing="false" onAction="#donorsafetybutton" prefHeight="25.0" prefWidth="157.0" text=" Donor Safety" />
+      <Button layoutX="221.0" layoutY="208.0" mnemonicParsing="false" onAction="#eligibilitybutton" prefHeight="25.0" prefWidth="157.0" text="Eligibility" />
+      <Button layoutX="221.0" layoutY="244.0" mnemonicParsing="false" onAction="#supplyanddemandbutton" prefHeight="25.0" prefWidth="157.0" text="Supply and Demand" />
+      <Button layoutX="221.0" layoutY="285.0" mnemonicParsing="false" onAction="#madicalbutton" prefHeight="25.0" prefWidth="157.0" text="Medical facilities" />
+      <Button layoutX="221.0" layoutY="323.0" mnemonicParsing="false" onAction="#maintenancebutton" prefHeight="25.0" prefWidth="157.0" text="Maintenance" />
+      <Button layoutX="221.0" layoutY="362.0" mnemonicParsing="false" onAction="#TrainingandDevelopmentbutton" prefHeight="25.0" prefWidth="157.0" text="Training and Development" />
+      <Button layoutX="487.0" layoutY="374.0" mnemonicParsing="false" onAction="#logoutbutton" text="Log Out" />
+   </children>
+</AnchorPane>
